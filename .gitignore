@@ -1,0 +1,8 @@
+# игнор файлов и папок
+.vscode
+.idea
+.DS_Store
+node_modules
+.env
+build/
+*.psd
