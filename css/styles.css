@@ -1,0 +1,60 @@
+/* фон нави белый #FFFFFF */
+/* фон маин, футр чёрный #2F303A */
+/* фон маин белый #F5F5F5 */
+/* фон маин серый #F5F4FA */
+/* веб #2196F3 */
+/*  */
+
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --primary-background-color: #ffffff;
+  --logo-color: #000000;
+  --hero-background-color: #2f303a;
+  --footer-background-color: #2f303a;
+  --footer-address-list: rgba(255, 255, 255, 0.6);
+  --btn-background-color: #188ce8;
+  --team-background-color: #f5f4fa;
+}
+
+body {
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+}
+
+p {
+  color: #757575;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  color: var(--primary-white-color);
+}
+/* навигация */
+
+.nav .nav-link {
+  color: #212121;
+}
+
+.nav .nav-link:hover,
+.nav .nav-link:focus {
+  color: var(--accent-color);
+}
+
+/* логотип */
+.logo span {
+  color: var(--accent-color);
+}
+
+.address-map {
+  color: var(--primary-white-color);
+}
+
+.address-link {
+  color: rgba(255, 255, 255, 0.6);
+}
