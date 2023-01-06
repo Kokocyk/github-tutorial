@@ -26,6 +26,7 @@ font-family: 'Roboto', sans-serif;
 body {
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
+  font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -34,49 +35,11 @@ a {
 
 p {
   color: var(--title-text-color);
-  font-style: normal
+  font-style: normal;
 }
 
 ul {
   list-style: none;
-}
-
-.main .title-main {
-  color: var(--primary-white-color);
-  text-transform: uppercase;
-font-family: 'Roboto', sans-serif; 
-font-style: normal;
-font-weight: 900;
-font-size: 44px;
-line-height: 1.4;
-text-align: center;
-}
-
-.main .section-main {
-  background-color: var(--main-background-color);
-}
-
-/* навигация */
-
-.nav {
-font-family: 'Roboto', sans-serif; 
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.2;
-}
-
-.nav .nav-link {
-  color: var(--primary-text-color);
-}
-
-.nav .nav-link:hover,
-.nav .nav-link:focus {
-  color: var(--accent-color);
-}
-
-.nav-link.active {
-  color: var(--accent-color);
 }
 
 /* логотип */
@@ -92,47 +55,81 @@ line-height: 1.2;
   line-height: 1.2;
 }
 
+/* index.html */
+
+.main .title-main {
+  color: var(--primary-white-color);
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.main .section-main {
+  background-color: var(--main-background-color);
+}
+
+/* навигация */
+
+.nav {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.nav .nav-link {
+  color: var(--primary-text-color);
+}
+
+.nav .nav-link:hover,
+.nav .nav-link:focus {
+  color: var(--accent-color);
+}
+
+.nav-link.active {
+  color: var(--accent-color);
+}
+
 /* Кнопка */
 .btn-main {
   background-color: var(--btn-background-color);
   color: var(--primary-white-color);
-  font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 1.88;
-display: flex;
-align-items: center;
-text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 /* Приемущества */
 .advantages-title {
-  font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 1.15;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.15;
   text-transform: uppercase;
 }
 
 .advantages-text {
-  font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.72;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.72;
 }
 
 /* Чем мы занимаемся */
 
 .direction-title {
-  font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 1.17;
-text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
 .section-work {
@@ -145,38 +142,34 @@ text-align: center;
 }
 
 .team-title {
-  font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 1.17;
-text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
 .team-workers {
-  font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.19;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
 }
 
 .team-professions {
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.19;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
 }
 
 /* Футр */
 footer {
   background-color: var(--footer-background-color);
-  font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.72;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.72;
 }
 
 /* Google maps */
@@ -187,4 +180,27 @@ line-height: 1.72;
 /* Контакты футр */
 .address-link {
   color: rgba(255, 255, 255, 0.6);
+}
+
+
+/* Portfolio */
+
+/* Кнопки фильтра */
+.filters .btn-filters {
+  background-color: var(--team-background-color);
+  color: var(--primary-text-color);
+}
+
+.filters .btn-filters:hover,
+.filters .btn-filters:focus {
+  background-color: var(--btn-background-color);
+  color: var(--primary-white-color);
+}
+
+.works .works-title {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
 }
