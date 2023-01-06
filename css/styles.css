@@ -1,9 +1,13 @@
 /* фон нави белый #FFFFFF */
-/* фон маин, футр чёрный #2F303A */
+/* футр чёрный #2F303A */
 /* фон маин белый #F5F5F5 */
-/* фон маин серый #F5F4FA */
+/* фон команды серый #F5F4FA */
 /* веб #2196F3 */
 /*  */
+/* Шрифты
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; 
+*/
 
 :root {
   --primary-text-color: #212121;
@@ -12,10 +16,10 @@
   --primary-white-color: #ffffff;
   --primary-background-color: #ffffff;
   --logo-color: #000000;
-  --hero-background-color: #2f303a;
+  --main-background-color: #2f303a;
   --footer-background-color: #2f303a;
   --footer-address-list: rgba(255, 255, 255, 0.6);
-  --btn-background-color: #188ce8;
+  --btn-background-color: #2196f3;
   --team-background-color: #f5f4fa;
 }
 
@@ -24,25 +28,39 @@ body {
   color: var(--primary-text-color);
 }
 
+a {
+  text-decoration: none;
+}
+
 p {
-  color: #757575;
+  color: var(--title-text-color);
 }
 
 ul {
   list-style: none;
 }
 
-h1 {
+.main .title-main {
   color: var(--primary-white-color);
+  text-transform: uppercase;
 }
+
+.main .section-main {
+  background-color: var(--main-background-color);
+}
+
 /* навигация */
 
 .nav .nav-link {
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 .nav .nav-link:hover,
 .nav .nav-link:focus {
+  color: var(--accent-color);
+}
+
+.nav-link.active {
   color: var(--accent-color);
 }
 
@@ -51,10 +69,42 @@ h1 {
   color: var(--accent-color);
 }
 
+.logo {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Кнопка */
+.btn-main {
+  background-color: var(--btn-background-color);
+  color: var(--primary-white-color);
+}
+
+/* Приемущества */
+.advantages-title {
+  text-transform: uppercase;
+}
+
+/* Чем мы занимаемся */
+.section-work {
+  background-color: var(--primary-background-color);
+}
+
+/* Наша команда */
+.section-team {
+  background-color: var(--team-background-color);
+}
+
+/* Футр */
+footer {
+  background-color: var(--footer-background-color);
+}
+
+/* Google maps */
 .address-map {
   color: var(--primary-white-color);
 }
 
+/* Контакты футр */
 .address-link {
   color: rgba(255, 255, 255, 0.6);
 }
